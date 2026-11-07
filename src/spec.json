@@ -1,0 +1,265 @@
+{
+  "title": "Catalogo prodotti",
+  "description": "Prototipo navigabile per consultare, filtrare e aggiornare un catalogo di prodotti inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo del catalogo e accesso rapido alle categorie e alle schede prodotto.",
+      "metrics": [
+        {
+          "label": "Prodotti",
+          "value": "24"
+        },
+        {
+          "label": "Categorie",
+          "value": "5"
+        },
+        {
+          "label": "Disponibili",
+          "value": "19"
+        },
+        {
+          "label": "In esaurimento",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Categoria",
+        "Prodotti",
+        "Disponibili"
+      ],
+      "rows": [
+        [
+          "Lume",
+          "6",
+          "5"
+        ],
+        [
+          "Vela",
+          "5",
+          "4"
+        ],
+        [
+          "Nubi",
+          "4",
+          "3"
+        ],
+        [
+          "Rivo",
+          "5",
+          "4"
+        ],
+        [
+          "Timo",
+          "4",
+          "3"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "prodotti",
+      "title": "Prodotti",
+      "description": "Esplora il catalogo con ricerca testuale e filtri per categoria e disponibilità.",
+      "metrics": [],
+      "columns": [
+        "Nome",
+        "Categoria",
+        "Codice",
+        "Prezzo",
+        "Disponibilità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lampada Lumo",
+          "Lume",
+          "LM-104",
+          "€ 48",
+          "12",
+          "Disponibile"
+        ],
+        [
+          "Vaso Nubi",
+          "Nubi",
+          "NB-208",
+          "€ 32",
+          "8",
+          "Disponibile"
+        ],
+        [
+          "Tavolino Vela",
+          "Vela",
+          "VL-315",
+          "€ 125",
+          "3",
+          "In esaurimento"
+        ],
+        [
+          "Mensola Rivo",
+          "Rivo",
+          "RV-422",
+          "€ 67",
+          "0",
+          "Esaurito"
+        ],
+        [
+          "Tessuto Timo",
+          "Timo",
+          "TM-509",
+          "€ 24",
+          "16",
+          "Disponibile"
+        ],
+        [
+          "Lanterna Lume",
+          "Lume",
+          "LM-117",
+          "€ 39",
+          "7",
+          "Disponibile"
+        ],
+        [
+          "Ciotola Nubi",
+          "Nubi",
+          "NB-219",
+          "€ 18",
+          "5",
+          "Disponibile"
+        ],
+        [
+          "Sedia Vela",
+          "Vela",
+          "VL-326",
+          "€ 89",
+          "2",
+          "In esaurimento"
+        ],
+        [
+          "Scaffale Rivo",
+          "Rivo",
+          "RV-437",
+          "€ 142",
+          "6",
+          "Disponibile"
+        ],
+        [
+          "Coperta Timo",
+          "Timo",
+          "TM-518",
+          "€ 54",
+          "9",
+          "Disponibile"
+        ]
+      ],
+      "form": [
+        "Nome",
+        "Categoria",
+        "Codice",
+        "Prezzo",
+        "Disponibilità",
+        "Stato"
+      ]
+    },
+    {
+      "id": "categorie",
+      "title": "Categorie",
+      "description": "Consulta la distribuzione dei prodotti per categoria e aggiungi nuove categorie inventate.",
+      "metrics": [],
+      "columns": [
+        "Nome",
+        "Descrizione",
+        "Prodotti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lume",
+          "Illuminazione e oggetti luminosi",
+          "6",
+          "Attiva"
+        ],
+        [
+          "Vela",
+          "Arredi essenziali",
+          "5",
+          "Attiva"
+        ],
+        [
+          "Nubi",
+          "Vasi e complementi",
+          "4",
+          "Attiva"
+        ],
+        [
+          "Rivo",
+          "Mensole e contenitori",
+          "5",
+          "Attiva"
+        ],
+        [
+          "Timo",
+          "Tessili per la casa",
+          "4",
+          "Attiva"
+        ]
+      ],
+      "form": [
+        "Nome",
+        "Descrizione",
+        "Prodotti",
+        "Stato"
+      ]
+    },
+    {
+      "id": "dettaglio-prodotto",
+      "title": "Scheda prodotto",
+      "description": "Visualizza e aggiorna i dettagli di un prodotto selezionato dal catalogo.",
+      "metrics": [],
+      "columns": [
+        "Nome",
+        "Categoria",
+        "Codice",
+        "Prezzo",
+        "Disponibilità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lampada Lumo",
+          "Lume",
+          "LM-104",
+          "€ 48",
+          "12",
+          "Disponibile"
+        ],
+        [
+          "Vaso Nubi",
+          "Nubi",
+          "NB-208",
+          "€ 32",
+          "8",
+          "Disponibile"
+        ],
+        [
+          "Tavolino Vela",
+          "Vela",
+          "VL-315",
+          "€ 125",
+          "3",
+          "In esaurimento"
+        ]
+      ],
+      "form": [
+        "Nome",
+        "Categoria",
+        "Codice",
+        "Prezzo",
+        "Disponibilità",
+        "Stato"
+      ]
+    }
+  ]
+}
